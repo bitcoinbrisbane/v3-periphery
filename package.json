@@ -71,6 +71,6 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "deploy:router": "npx hardhat ignition deploy ./ignition/modules/SwapRouterModule.ts --network sepolia"
+    "deploy:router": "npx hardhat ignition deploy ./ignition/modules/SwapRouterModule.ts --network sepolia --verify"
   }
 }
